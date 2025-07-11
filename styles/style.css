@@ -65,3 +65,94 @@ header{
 }
 
 /* === Header section style end === */
+.content-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* === Action Section style start === */
+.action-section{
+    width: 100%;
+    height: 328px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 220px;
+    margin: 115px 0;
+
+}
+
+/* .text-section{
+
+} */
+.text-section h1{
+    font-size: 42px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+}
+.text-section p{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    line-height: 30px;
+    color: #252432;
+    margin: 20px 0;
+}
+.text-section button{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #FFFFFF;
+    width: 230px;
+    height: 48px;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+}
+.action-section img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+/* === Action Section style end === */
+/* === Productive Users Section style start === */
+.users-section{
+    background-color: rgba(78, 71, 255, 10%);
+    text-align: center;
+    padding: 50px 142px;
+    border-radius: 10px;
+    margin-bottom: 135px;
+}
+.users-section h1{
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #252432;
+    margin-bottom: 40px;
+}
+.data-subtitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subtitle{
+
+}
+
+.subtitle .number{
+    display: block;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+}
+.subtitle .sub-title{
+    display: block;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 50%);
+}
+/* === Productive Users Section style end === */
+
+
+
