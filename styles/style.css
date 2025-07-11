@@ -159,9 +159,6 @@ header{
     padding: 0 142px 50px;
 }
 
-.subtitle{
-
-}
 
 .subtitle .number{
     display: block;
@@ -256,7 +253,59 @@ header{
 }
 /* === Users’ Feedback Section style end === */
 
+/* === Optional section style start === */
+.optional{
+    max-width: 1140px;
+    margin: 0 auto 70px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
 
+.optional h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+    padding-top: 70px;
+}
+
+.optional p{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 50%);
+    margin: 20px 0;
+}
+
+.optional .optional-btn{
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    width: 195px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4E47FF; 
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(78, 71, 255, 0.3);
+}
+
+.optional .optional-btn:hover{
+    background-color: #3C36CC;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(78, 71, 255, 0.5);
+}
+
+.optional img{
+    width: 840px;
+    height: 364px;
+    margin: 20px 0 70px 0;
+    border-radius: 48px;
+}
+/* === Optional section style end === */
 
 
 /* === Let’s Get In Touch Section style start === */
@@ -266,7 +315,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 233px; */
     
 }
 .touch-section h1{
@@ -315,7 +363,7 @@ form .text-box{
 form .btn{
     width: 100%;
     height: 55px;
-    background-color: #716cfc; 
+    background-color: #3C36CC; 
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
@@ -353,7 +401,6 @@ footer .logo{
 
 footer p{
     font-size: 16px;
-    /* line-height: 150px; */
     font-family: "Inter", sans-serif;
     color: #8987A1;
     margin-bottom: 20px;
@@ -377,4 +424,10 @@ ul li a:hover{
     color: #4E47FF;
 }
 /* === footer section style end === */
+
+
+
+
+
+
 
